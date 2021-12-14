@@ -60,8 +60,8 @@ def jagamine(loend:list,p:list,n:list,null:list):
     """jagab väärtused loendisse
     :param list loend: arvute loend
     :param list p:
-    :param list n:
-    :param list null:
+    :param list n: arvute koguarv
+    :param list null: nullväärtuse loend
     :rtype: list
     """
     for el in loend:
@@ -89,8 +89,8 @@ def keskmine(loend:list):
 
 def lisamine(loend,el):
     """lisab üksuse ja sorteerib loendit
-    :param list loend:
-    :param float el:
+    :param list loend: arvute loend
+    :param float el: murdosa loend
     :rtype: float
     """
     loend.append(el)
